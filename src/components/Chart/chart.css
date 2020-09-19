@@ -1,0 +1,21 @@
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.line-chart section {
+    width: 50%;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}

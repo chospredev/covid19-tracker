@@ -1,0 +1,14 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.cards > div {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}

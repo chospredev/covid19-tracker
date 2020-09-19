@@ -1,0 +1,10 @@
+.header {
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(255, 51, 0);
+
+    font-family: 'Kufam', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}

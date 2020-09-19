@@ -1,0 +1,36 @@
+.deaths-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 400px;
+    border-bottom: 8px solid rgb(252, 3, 3);
+}
+
+.header-deaths {
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.deaths {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-right: 110px;
+}
+
+.date {
+    margin-top: 5px;
+}
+
+.deaths-text-heading {
+    margin-top: 10px;
+}
+
+.heading-1 {
+    margin-top: 30px;
+}
+
+.div-2 {
+    margin-top: -15px;
+}
