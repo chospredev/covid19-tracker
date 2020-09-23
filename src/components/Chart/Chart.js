@@ -3,16 +3,15 @@ import { Line, Bar } from 'react-chartjs-2'
 
 import './chart.css'
 
-const Chart = (
-    {
-        data,
+const Chart = (props) => {
+
+    const {
         dailyData,
         confirmed,
         recovered,
         deaths,
         country,
-    }
-) => {
+    } = props
 
     const lineChart = (
         dailyData.length ?
@@ -46,9 +45,7 @@ const Chart = (
                         label: 'People',
                         backgroundColor: ['rgba(255, 153, 0, 0.7)', 'rgba(22, 224, 0, 0.7)', 'rgba(252, 3, 3, 0.7)'],
                         data: [
-                            confirmed.map(({ value }) => value),
-                            recovered.map(({ value }) => value),
-                            deaths.map(({ value }) => value),
+                            confirmed[0], recovered[0], deaths[0]
                         ]
                     }],
                 }}

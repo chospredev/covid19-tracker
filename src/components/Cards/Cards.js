@@ -11,7 +11,6 @@ import {
 } from '../'
 import { API_URL } from '../../config/api'
 import './cards.css'
-import CountUp from 'react-countup'
 
 const Cards = () => {
 
